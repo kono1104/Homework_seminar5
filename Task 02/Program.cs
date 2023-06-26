@@ -1,7 +1,6 @@
 ﻿/* Задача 36: Задайте одномерный массив, заполненный случайными числами.
  Найдите сумму элементов, стоящих на нечётных позициях.
 [3, 7, 23, 12] -> 19   [-4, -6, 89, 6] -> 0 */
-
 int size = ReadInt("Введите размерность массива: ");
 int min = ReadInt("Введите минимальное число массива: ");
 int max = ReadInt("Введите максимальное число массива: ");
@@ -17,7 +16,6 @@ for (int i = 0; i < numbers.Length; i++)
     }
 }
 Console.WriteLine($"Сумма элементов нечетных позиций = {result}");
-
 // Методы
 void FillArrayRandomNumbers(int [] array) //Заполнение массива
 {
@@ -34,7 +32,6 @@ void PrintArray(int[] array) //Вывод массива на экран
     }
     Console.WriteLine();
 }
-
 int ReadInt(string message)  //Функция ввода
 {
     Console.Write(message);
